@@ -16,18 +16,11 @@
         "default_value": "dc"
       },
       {
-		"id": "description_template",
-		"type": "text",
-		"name": "Descrption Template",
-		"description": "Information about release (id, genre, label, country)",
-		"default_value": "{id} • {genre} • {label}: {country}"
-	  },
-      {
-        "id": "item_name",
-        "type": "input",
-        "name": "Item Name",
-        "description": "Name for each item",
-        "default_value": "Item"
+        "id": "description_template",
+        "type": "text",
+        "name": "Descrption Template",
+        "description": "Information about release (id, genre, label, country)",
+        "default_value": "{id} • {genre} • {label}: {country}"
       },
       {
         "id": "discogs_api_token",
