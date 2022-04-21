@@ -1,0 +1,45 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Discogs Search",
+    "description": "Search Discogs Releases",
+    "developer_name": "slurpyb",
+    "icon": "images/icon.png",
+    "options": {
+      "query_debounce": 1
+    },
+    "preferences": [
+      {
+        "id": "discogs_search_extension",
+        "type": "keyword",
+        "name": "Discogs Search",
+        "description": "Search for Discogs release",
+        "default_value": "dc"
+      },
+      {
+		"id": "description_template",
+		"type": "text",
+		"name": "Descrption Template",
+		"description": "Information about release (id, genre, label, country)",
+		"default_value": "{id} • {genre} • {label}: {country}"
+	  },
+      {
+        "id": "item_name",
+        "type": "input",
+        "name": "Item Name",
+        "description": "Name for each item",
+        "default_value": "Item"
+      },
+      {
+        "id": "discogs_api_token",
+        "type": "input",
+        "name": "API Token",
+        "default_value": ""
+      },
+      {
+        "id": "max_results",
+        "type": "input",
+        "name": "Max Results",
+        "default_value": "5"
+      }
+    ]
+  }
